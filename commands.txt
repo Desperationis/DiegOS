@@ -7,7 +7,7 @@
 6. systemctl disable ubiquity
 7. apt remove --purge ubiquity
 8. Remove "maybe-ubiquity" from Layer 1
-9. Use packageman on listed packages (probably not gstreamer though). Save downloaded fonts to /home/
+9. Use packageman on listed packages (probably not gstreamer though). Save downloaded fonts to /home/. Use ComputerSave for other setup
 10. Make fish default shell for root
 11. Install untrunc from https://github.com/anthwlock/untrunc. Put it in /home
 12. Get TOR installed + checksum on it. Put it in /home
