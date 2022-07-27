@@ -1,0 +1,14 @@
+0. Get an Ubuntu 22.04 Live CD and pry into it
+1. Update /etc/apt/sources.list
+2. apt update && apt upgrade
+3. apt install git python3 python3-pip
+4. pip3 install PyYAML
+5. apt remove --purge thunderbird libreoffice*
+6. systemctl disable ubiquity
+7. apt remove --purge ubiquity
+8. Remove "maybe-ubiquity" from Layer 1
+9. Use packageman on listed packages (probably not gstreamer though). Save downloaded fonts to /home/
+10. Make fish default shell for root
+11. Install untrunc from https://github.com/anthwlock/untrunc. Put it in /home
+12. Get TOR installed + checksum on it. Put it in /home
+13. Replace default wallpaper by replacing ubuntu wallpaper
